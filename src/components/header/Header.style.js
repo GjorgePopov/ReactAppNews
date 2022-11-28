@@ -9,7 +9,6 @@ export const MainTitle = styled.h1`
 
   margin: 0.5em 0.5em;
   text-align: center;
-  
 `;
 
 export const SubTitle = styled.p`
