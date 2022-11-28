@@ -14,6 +14,7 @@ export const MainTitle = styled.h1`
 
 export const SubTitle = styled.p`
   margin-bottom: 0.5em;
+  text-align: center; 
 
   @media only screen and (max-width: 600px) {
     {
@@ -26,7 +27,7 @@ export const SearchContainer = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 50px 0px 55px;
+  padding: 0px 70px 0px 55px;
 
   @media only screen and (max-width: 600px) {
      
@@ -39,14 +40,8 @@ export const SearchContainer = styled.div`
 `;
 
 export const SocialIcons = styled.div`
+
 display: flex; 
 justify-content: space-around;
-
-
-
-   
-    
-  }
-
 `;
 

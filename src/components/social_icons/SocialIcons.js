@@ -4,6 +4,8 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import { SocialIconsContainer } from "./SocialIcons.style";
 
+
+
 const SocialIcons = () => {
   return (
     <SocialIconsContainer>
@@ -16,6 +18,10 @@ const SocialIcons = () => {
       <Link>
         <TwitterIcon />
       </Link>
+      <Link>
+      <button>Search</button>
+      </Link>
+      
     </SocialIconsContainer>
   );
 };
